@@ -11,18 +11,13 @@ import com.google.gson.JsonObject
 import com.google.gson.reflect.TypeToken
 import org.json.JSONArray
 import org.json.JSONObject
-import org.prebid.mobile.BannerAdUnit
-import org.prebid.mobile.ContentObject
-import org.prebid.mobile.DataObject
-import org.prebid.mobile.ExternalUserId
-import org.prebid.mobile.ExternalUserId.UniqueId
-import org.prebid.mobile.PrebidMobile
-import org.prebid.mobile.TargetingParams
-import org.prebid.mobile.api.mediation.MediationBaseAdUnit
-import org.prebid.mobile.api.mediation.MediationNativeAdUnit
-import org.prebid.mobile.api.rendering.BannerView
-import org.prebid.mobile.api.rendering.BaseInterstitialAdUnit
-import org.prebid.mobile.rendering.models.openrtb.bidRequests.Ext
+import org.prebid.mobile.xandr.ContentObject
+import org.prebid.mobile.xandr.DataObject
+import org.prebid.mobile.xandr.ExternalUserId
+import org.prebid.mobile.xandr.ExternalUserId.UniqueId
+import org.prebid.mobile.xandr.PrebidMobile
+import org.prebid.mobile.xandr.TargetingParams
+import org.prebid.mobile.xandr.rendering.models.openrtb.bidRequests.Ext
 import org.prebid.mobile.renderingtestapp.plugplay.utilities.consent.ConsentUpdateManager
 
 object CommandLineArgumentParser {

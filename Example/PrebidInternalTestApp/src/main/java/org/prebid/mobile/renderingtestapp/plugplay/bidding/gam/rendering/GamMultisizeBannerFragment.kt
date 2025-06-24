@@ -16,7 +16,7 @@
 
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.gam.rendering
 
-import org.prebid.mobile.AdSize
+import org.prebid.mobile.xandr.AdSize
 
 class GamMultisizeBannerFragment : GamBannerFragment() {
 

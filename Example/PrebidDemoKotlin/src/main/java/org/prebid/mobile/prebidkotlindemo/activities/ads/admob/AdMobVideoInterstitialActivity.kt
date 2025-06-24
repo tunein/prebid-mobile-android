@@ -23,8 +23,8 @@ import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import org.prebid.mobile.admob.AdMobMediationInterstitialUtils
 import org.prebid.mobile.admob.PrebidInterstitialAdapter
-import org.prebid.mobile.api.data.AdUnitFormat
-import org.prebid.mobile.api.mediation.MediationInterstitialAdUnit
+import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.xandr.api.mediation.MediationInterstitialAdUnit
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import java.util.*
 

@@ -12,12 +12,16 @@ import com.applovin.mediation.nativeAds.MaxNativeAdListener
 import com.applovin.mediation.nativeAds.MaxNativeAdLoader
 import com.applovin.mediation.nativeAds.MaxNativeAdView
 import com.applovin.mediation.nativeAds.MaxNativeAdViewBinder
-import org.prebid.mobile.*
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingNativeApplovinMaxBinding
 import org.prebid.mobile.renderingtestapp.plugplay.config.AdConfiguratorDialogFragment
 import org.prebid.mobile.renderingtestapp.utils.BaseEvents
+import org.prebid.mobile.xandr.NativeAdUnit
+import org.prebid.mobile.xandr.NativeDataAsset
+import org.prebid.mobile.xandr.NativeEventTracker
+import org.prebid.mobile.xandr.NativeImageAsset
+import org.prebid.mobile.xandr.NativeTitleAsset
 
 open class MaxNativeFragment : AdFragment() {
 

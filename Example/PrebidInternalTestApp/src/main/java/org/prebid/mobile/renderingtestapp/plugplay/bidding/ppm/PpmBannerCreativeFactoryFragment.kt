@@ -15,8 +15,8 @@
  */
 
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm
-import org.prebid.mobile.PrebidMobile
-import org.prebid.mobile.api.rendering.BannerView
+import org.prebid.mobile.xandr.PrebidMobile
+import org.prebid.mobile.xandr.api.rendering.BannerView
 import org.prebid.mobile.renderingtestapp.R
 
 class PpmBannerCreativeFactoryFragment : PpmBannerFragment() {

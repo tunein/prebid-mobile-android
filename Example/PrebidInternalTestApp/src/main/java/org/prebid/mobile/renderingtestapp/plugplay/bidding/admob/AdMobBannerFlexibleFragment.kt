@@ -2,15 +2,13 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.admob
 
 import android.os.Bundle
 import android.util.Log
-import android.widget.RelativeLayout
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
-import org.prebid.mobile.AdSize
+import org.prebid.mobile.xandr.AdSize
 import org.prebid.mobile.admob.AdMobMediationBannerUtils
 import org.prebid.mobile.admob.PrebidBannerAdapter
-import org.prebid.mobile.api.mediation.MediationBannerAdUnit
-import org.prebid.mobile.renderingtestapp.R
+import org.prebid.mobile.xandr.api.mediation.MediationBannerAdUnit
 import com.google.android.gms.ads.AdSize as GamAdSize
 
 

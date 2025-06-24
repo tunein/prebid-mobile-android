@@ -24,10 +24,9 @@ import android.webkit.WebView
 import androidx.multidex.MultiDex
 import androidx.multidex.MultiDexApplication
 import com.applovin.sdk.AppLovinSdk
-import org.prebid.mobile.Host
-import org.prebid.mobile.PrebidMobile
+import org.prebid.mobile.xandr.Host
+import org.prebid.mobile.xandr.PrebidMobile
 import org.prebid.mobile.renderingtestapp.utils.DemoItemProvider
-import org.prebid.mobile.renderingtestapp.utils.SourcePicker
 
 
 class InternalTestApplication : MultiDexApplication() {

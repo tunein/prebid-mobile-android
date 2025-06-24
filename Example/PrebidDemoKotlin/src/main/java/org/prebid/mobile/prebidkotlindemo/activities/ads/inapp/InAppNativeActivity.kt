@@ -21,10 +21,15 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import org.prebid.mobile.*
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import org.prebid.mobile.prebidkotlindemo.utils.ImageUtils
-import org.prebid.mobile.rendering.utils.ntv.NativeAdProvider
+import org.prebid.mobile.xandr.NativeAdUnit
+import org.prebid.mobile.xandr.rendering.utils.ntv.NativeAdProvider
+import org.prebid.mobile.xandr.NativeDataAsset
+import org.prebid.mobile.xandr.NativeEventTracker
+import org.prebid.mobile.xandr.NativeImageAsset
+import org.prebid.mobile.xandr.NativeTitleAsset
+import org.prebid.mobile.xandr.PrebidNativeAd
 
 class InAppNativeActivity : BaseAdActivity() {
 

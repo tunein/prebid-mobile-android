@@ -21,9 +21,9 @@ import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
-import org.prebid.mobile.AdSize
-import org.prebid.mobile.api.data.VideoPlacementType
-import org.prebid.mobile.api.rendering.BannerView
+import org.prebid.mobile.xandr.AdSize
+import org.prebid.mobile.xandr.api.data.VideoPlacementType
+import org.prebid.mobile.xandr.api.rendering.BannerView
 import org.prebid.mobile.eventhandlers.GamBannerEventHandler
 import org.prebid.mobile.renderingtestapp.utils.OpenRtbConfigs
 

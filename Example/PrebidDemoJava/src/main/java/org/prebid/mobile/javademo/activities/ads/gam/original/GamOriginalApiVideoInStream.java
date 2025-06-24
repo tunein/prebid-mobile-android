@@ -17,12 +17,13 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 
-import org.prebid.mobile.InStreamVideoAdUnit;
-import org.prebid.mobile.Signals;
-import org.prebid.mobile.Util;
-import org.prebid.mobile.VideoParameters;
+import org.prebid.mobile.xandr.InStreamVideoAdUnit;
+import org.prebid.mobile.xandr.Signals;
+import org.prebid.mobile.xandr.Util;
+import org.prebid.mobile.xandr.VideoParameters;
 import org.prebid.mobile.javademo.R;
 import org.prebid.mobile.javademo.activities.BaseAdActivity;
+import org.prebid.mobile.xandr.AdSize;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -65,8 +66,8 @@ public class GamOriginalApiVideoInStream extends BaseAdActivity {
         adUnit.setVideoParameters(parameters);
 
         adUnit.fetchDemand((bidInfo) -> {
-            HashSet<org.prebid.mobile.AdSize> sizes = new HashSet<>();
-            sizes.add(new org.prebid.mobile.AdSize(WIDTH, HEIGHT));
+            HashSet<AdSize> sizes = new HashSet<>();
+            sizes.add(new AdSize(WIDTH, HEIGHT));
             adsUri = Uri.parse(Util.generateInstreamUriForGam(AD_UNIT_ID, sizes, bidInfo.getTargetingKeywords()));
 
             ImaAdsLoader.Builder imaBuilder = new ImaAdsLoader.Builder(this);

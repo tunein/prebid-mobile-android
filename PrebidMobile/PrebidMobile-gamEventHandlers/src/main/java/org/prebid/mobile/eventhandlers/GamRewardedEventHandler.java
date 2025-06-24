@@ -23,13 +23,13 @@ import android.os.Looper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.google.android.gms.ads.rewarded.RewardItem;
-import org.prebid.mobile.LogUtil;
-import org.prebid.mobile.api.exceptions.AdException;
+import org.prebid.mobile.xandr.LogUtil;
+import org.prebid.mobile.xandr.api.exceptions.AdException;
 import org.prebid.mobile.eventhandlers.global.Constants;
-import org.prebid.mobile.rendering.bidding.data.bid.Bid;
-import org.prebid.mobile.rendering.bidding.interfaces.RewardedEventHandler;
-import org.prebid.mobile.rendering.bidding.listeners.RewardedVideoEventListener;
-import org.prebid.mobile.rendering.interstitial.rewarded.Reward;
+import org.prebid.mobile.xandr.rendering.bidding.data.bid.Bid;
+import org.prebid.mobile.xandr.rendering.bidding.interfaces.RewardedEventHandler;
+import org.prebid.mobile.xandr.rendering.bidding.listeners.RewardedVideoEventListener;
+import org.prebid.mobile.xandr.rendering.interstitial.rewarded.Reward;
 
 import java.lang.ref.WeakReference;
 

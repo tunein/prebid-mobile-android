@@ -20,13 +20,13 @@ import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.admanager.AdManagerAdView
-import org.prebid.mobile.BannerAdUnit
-import org.prebid.mobile.BannerParameters
-import org.prebid.mobile.Signals
-import org.prebid.mobile.VideoParameters
-import org.prebid.mobile.addendum.AdViewUtils
-import org.prebid.mobile.addendum.PbFindSizeError
-import org.prebid.mobile.api.data.AdUnitFormat
+import org.prebid.mobile.xandr.BannerAdUnit
+import org.prebid.mobile.xandr.BannerParameters
+import org.prebid.mobile.xandr.Signals
+import org.prebid.mobile.xandr.VideoParameters
+import org.prebid.mobile.xandr.addendum.AdViewUtils
+import org.prebid.mobile.xandr.addendum.PbFindSizeError
+import org.prebid.mobile.xandr.api.data.AdUnitFormat
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import java.util.*
 
@@ -58,7 +58,12 @@ class GamOriginalApiMultiformatBannerActivity : BaseAdActivity() {
         }
 
         // 1. Create BannerAdUnit
-        adUnit = BannerAdUnit(configId, WIDTH, HEIGHT, EnumSet.of(AdUnitFormat.BANNER, AdUnitFormat.VIDEO))
+        adUnit = BannerAdUnit(
+            configId,
+            WIDTH,
+            HEIGHT,
+            EnumSet.of(AdUnitFormat.BANNER, AdUnitFormat.VIDEO)
+        )
         adUnit?.setAutoRefreshInterval(refreshTimeSeconds)
 
         // 2. Configure parameters

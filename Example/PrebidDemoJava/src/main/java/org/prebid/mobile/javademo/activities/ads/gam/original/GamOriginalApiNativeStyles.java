@@ -8,11 +8,11 @@ import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.admanager.AdManagerAdRequest;
 import com.google.android.gms.ads.admanager.AdManagerAdView;
 
-import org.prebid.mobile.NativeAdUnit;
-import org.prebid.mobile.NativeDataAsset;
-import org.prebid.mobile.NativeEventTracker;
-import org.prebid.mobile.NativeImageAsset;
-import org.prebid.mobile.NativeTitleAsset;
+import org.prebid.mobile.xandr.NativeAdUnit;
+import org.prebid.mobile.xandr.NativeDataAsset;
+import org.prebid.mobile.xandr.NativeEventTracker;
+import org.prebid.mobile.xandr.NativeImageAsset;
+import org.prebid.mobile.xandr.NativeTitleAsset;
 import org.prebid.mobile.javademo.activities.BaseAdActivity;
 
 import java.util.ArrayList;

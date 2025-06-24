@@ -7,12 +7,10 @@ import com.google.android.gms.ads.mediation.MediationAdLoadCallback;
 import com.google.android.gms.ads.mediation.MediationRewardedAd;
 import com.google.android.gms.ads.mediation.MediationRewardedAdCallback;
 import com.google.android.gms.ads.mediation.MediationRewardedAdConfiguration;
-import com.google.android.gms.ads.rewarded.RewardItem;
-import org.jetbrains.annotations.NotNull;
-import org.prebid.mobile.api.exceptions.AdException;
-import org.prebid.mobile.rendering.bidding.display.InterstitialController;
-import org.prebid.mobile.rendering.bidding.interfaces.InterstitialControllerListener;
-import org.prebid.mobile.rendering.interstitial.rewarded.Reward;
+
+import org.prebid.mobile.xandr.api.exceptions.AdException;
+import org.prebid.mobile.xandr.rendering.bidding.display.InterstitialController;
+import org.prebid.mobile.xandr.rendering.bidding.interfaces.InterstitialControllerListener;
 
 /**
  * Prebid rewarded adapter for AdMob integration.

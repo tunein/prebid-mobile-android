@@ -19,8 +19,8 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm
 import android.view.View
 import android.widget.Button
 import androidx.annotation.IdRes
-import org.prebid.mobile.NativeData
-import org.prebid.mobile.PrebidNativeAd
+import org.prebid.mobile.xandr.NativeData
+import org.prebid.mobile.xandr.PrebidNativeAd
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.widgets.EventCounterView
 

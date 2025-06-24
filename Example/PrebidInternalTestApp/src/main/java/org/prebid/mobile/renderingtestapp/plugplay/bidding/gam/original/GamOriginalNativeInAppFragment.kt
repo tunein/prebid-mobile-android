@@ -19,11 +19,20 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.prebid.mobile.*
-import org.prebid.mobile.addendum.AdViewUtils
+import org.prebid.mobile.xandr.addendum.AdViewUtils
 import org.prebid.mobile.eventhandlers.utils.GamUtils
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm.PpmNativeFragment
 import org.prebid.mobile.renderingtestapp.utils.loadImage
+import org.prebid.mobile.xandr.NativeAdUnit
+import org.prebid.mobile.xandr.NativeDataAsset
+import org.prebid.mobile.xandr.NativeEventTracker
+import org.prebid.mobile.xandr.NativeImageAsset
+import org.prebid.mobile.xandr.NativeTitleAsset
+import org.prebid.mobile.xandr.PrebidNativeAd
+import org.prebid.mobile.xandr.PrebidNativeAdEventListener
+import org.prebid.mobile.xandr.PrebidNativeAdListener
+import org.prebid.mobile.xandr.ResultCode
 import java.lang.ref.WeakReference
 
 class GamOriginalNativeInAppFragment : PpmNativeFragment() {

@@ -16,11 +16,10 @@
 
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm
 
-import org.prebid.mobile.AdSize
-import org.prebid.mobile.api.data.AdUnitFormat
-import org.prebid.mobile.api.rendering.InterstitialAdUnit
+import org.prebid.mobile.xandr.AdSize
+import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.xandr.api.rendering.InterstitialAdUnit
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidInterstitialFragment
-import org.prebid.mobile.renderingtestapp.utils.CommandLineArgumentParser
 import java.util.*
 
 open class PpmInterstitialFragment : BaseBidInterstitialFragment() {

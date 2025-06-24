@@ -29,6 +29,11 @@ import org.prebid.mobile.*
 import org.prebid.mobile.admob.PrebidNativeAdapter
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import org.prebid.mobile.prebidkotlindemo.databinding.ViewNativeAdAdMobBinding
+import org.prebid.mobile.xandr.NativeAdUnit
+import org.prebid.mobile.xandr.NativeDataAsset
+import org.prebid.mobile.xandr.NativeEventTracker
+import org.prebid.mobile.xandr.NativeImageAsset
+import org.prebid.mobile.xandr.NativeTitleAsset
 
 class AdMobNativeActivity : BaseAdActivity() {
 

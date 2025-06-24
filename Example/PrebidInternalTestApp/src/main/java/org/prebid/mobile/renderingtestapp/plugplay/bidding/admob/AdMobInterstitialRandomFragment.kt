@@ -7,7 +7,7 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import org.prebid.mobile.admob.PrebidInterstitialAdapter
-import org.prebid.mobile.rendering.bidding.display.BidResponseCache
+import org.prebid.mobile.xandr.rendering.bidding.display.BidResponseCache
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.widgets.EventCounterView
 import kotlin.random.Random

@@ -23,9 +23,13 @@ import com.applovin.mediation.nativeAds.MaxNativeAdListener
 import com.applovin.mediation.nativeAds.MaxNativeAdLoader
 import com.applovin.mediation.nativeAds.MaxNativeAdView
 import com.applovin.mediation.nativeAds.MaxNativeAdViewBinder
-import org.prebid.mobile.*
 import org.prebid.mobile.prebidkotlindemo.R
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
+import org.prebid.mobile.xandr.NativeAdUnit
+import org.prebid.mobile.xandr.NativeDataAsset
+import org.prebid.mobile.xandr.NativeEventTracker
+import org.prebid.mobile.xandr.NativeImageAsset
+import org.prebid.mobile.xandr.NativeTitleAsset
 
 class AppLovinMaxNativeActivity : BaseAdActivity() {
 

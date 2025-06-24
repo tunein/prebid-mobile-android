@@ -24,7 +24,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.lifecycle.observe
 import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceManager
-import org.prebid.mobile.PrebidMobile
+import org.prebid.mobile.xandr.PrebidMobile
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.data.DemoItem
 import org.prebid.mobile.renderingtestapp.databinding.FragmentMainBinding

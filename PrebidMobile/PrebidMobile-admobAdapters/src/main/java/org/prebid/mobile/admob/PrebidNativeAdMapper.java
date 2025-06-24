@@ -22,8 +22,8 @@ import com.google.android.gms.ads.mediation.MediationNativeAdCallback;
 import com.google.android.gms.ads.mediation.MediationNativeAdConfiguration;
 import com.google.android.gms.ads.mediation.UnifiedNativeAdMapper;
 
-import org.prebid.mobile.PrebidNativeAd;
-import org.prebid.mobile.PrebidNativeAdEventListener;
+import org.prebid.mobile.xandr.PrebidNativeAd;
+import org.prebid.mobile.xandr.PrebidNativeAdEventListener;
 
 import java.io.InputStream;
 import java.lang.ref.WeakReference;

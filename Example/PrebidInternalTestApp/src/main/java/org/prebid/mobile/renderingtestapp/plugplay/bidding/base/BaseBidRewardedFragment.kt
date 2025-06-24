@@ -19,10 +19,10 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.base
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import org.prebid.mobile.api.exceptions.AdException
-import org.prebid.mobile.api.rendering.RewardedAdUnit
-import org.prebid.mobile.api.rendering.listeners.RewardedAdUnitListener
-import org.prebid.mobile.rendering.interstitial.rewarded.Reward
+import org.prebid.mobile.xandr.api.exceptions.AdException
+import org.prebid.mobile.xandr.api.rendering.RewardedAdUnit
+import org.prebid.mobile.xandr.api.rendering.listeners.RewardedAdUnitListener
+import org.prebid.mobile.xandr.rendering.interstitial.rewarded.Reward
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingRewardedBinding

@@ -12,7 +12,7 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.nativead.NativeAd
 import com.google.android.gms.ads.nativead.NativeAdOptions
 import org.prebid.mobile.admob.PrebidNativeAdapter
-import org.prebid.mobile.api.mediation.MediationNativeAdUnit
+import org.prebid.mobile.xandr.api.mediation.MediationNativeAdUnit
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentAdmobNativeBinding

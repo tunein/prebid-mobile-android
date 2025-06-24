@@ -16,8 +16,8 @@
 
 package org.prebid.mobile.renderingtestapp.utils
 
-import org.prebid.mobile.Host
-import org.prebid.mobile.PrebidMobile
+import org.prebid.mobile.xandr.Host
+import org.prebid.mobile.xandr.PrebidMobile
 
 object SourcePicker {
 

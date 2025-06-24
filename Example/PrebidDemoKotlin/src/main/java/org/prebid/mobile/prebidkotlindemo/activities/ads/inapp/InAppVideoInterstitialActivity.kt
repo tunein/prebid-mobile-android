@@ -16,10 +16,10 @@
 package org.prebid.mobile.prebidkotlindemo.activities.ads.inapp
 
 import android.os.Bundle
-import org.prebid.mobile.api.data.AdUnitFormat
-import org.prebid.mobile.api.exceptions.AdException
-import org.prebid.mobile.api.rendering.InterstitialAdUnit
-import org.prebid.mobile.api.rendering.listeners.InterstitialAdUnitListener
+import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.xandr.api.exceptions.AdException
+import org.prebid.mobile.xandr.api.rendering.InterstitialAdUnit
+import org.prebid.mobile.xandr.api.rendering.listeners.InterstitialAdUnitListener
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import java.util.*
 

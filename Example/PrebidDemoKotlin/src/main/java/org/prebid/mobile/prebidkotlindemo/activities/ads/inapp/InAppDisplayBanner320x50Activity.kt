@@ -16,8 +16,8 @@
 package org.prebid.mobile.prebidkotlindemo.activities.ads.inapp
 
 import android.os.Bundle
-import org.prebid.mobile.AdSize
-import org.prebid.mobile.api.rendering.BannerView
+import org.prebid.mobile.xandr.AdSize
+import org.prebid.mobile.xandr.api.rendering.BannerView
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 
 class InAppDisplayBanner320x50Activity : BaseAdActivity() {

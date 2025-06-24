@@ -24,13 +24,13 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.prebid.mobile.AdSize;
-import org.prebid.mobile.LogUtil;
-import org.prebid.mobile.api.exceptions.AdException;
+import org.prebid.mobile.xandr.AdSize;
+import org.prebid.mobile.xandr.LogUtil;
+import org.prebid.mobile.xandr.api.exceptions.AdException;
 import org.prebid.mobile.eventhandlers.global.Constants;
-import org.prebid.mobile.rendering.bidding.data.bid.Bid;
-import org.prebid.mobile.rendering.bidding.interfaces.BannerEventHandler;
-import org.prebid.mobile.rendering.bidding.listeners.BannerEventListener;
+import org.prebid.mobile.xandr.rendering.bidding.data.bid.Bid;
+import org.prebid.mobile.xandr.rendering.bidding.interfaces.BannerEventHandler;
+import org.prebid.mobile.xandr.rendering.bidding.listeners.BannerEventListener;
 
 /**
  * Banner event handler for communication between Prebid rendering API and the GAM SDK.

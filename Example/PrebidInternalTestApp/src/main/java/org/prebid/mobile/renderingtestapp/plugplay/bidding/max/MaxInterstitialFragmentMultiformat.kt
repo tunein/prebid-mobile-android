@@ -2,8 +2,8 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.max
 
 import com.applovin.mediation.adapters.prebid.utils.MaxMediationInterstitialUtils
 import com.applovin.mediation.ads.MaxInterstitialAd
-import org.prebid.mobile.api.data.AdUnitFormat
-import org.prebid.mobile.api.mediation.MediationInterstitialAdUnit
+import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.xandr.api.mediation.MediationInterstitialAdUnit
 import org.prebid.mobile.renderingtestapp.R
 import java.util.*
 

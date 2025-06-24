@@ -18,14 +18,12 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm
 
 import android.util.Log
 import android.widget.Button
-import android.widget.FrameLayout
-import android.widget.TextView
-import org.prebid.mobile.AdSize
-import org.prebid.mobile.api.exceptions.AdException
-import org.prebid.mobile.api.rendering.BannerView
-import org.prebid.mobile.api.rendering.InterstitialAdUnit
-import org.prebid.mobile.api.rendering.listeners.BannerViewListener
-import org.prebid.mobile.api.rendering.listeners.InterstitialAdUnitListener
+import org.prebid.mobile.xandr.AdSize
+import org.prebid.mobile.xandr.api.exceptions.AdException
+import org.prebid.mobile.xandr.api.rendering.BannerView
+import org.prebid.mobile.xandr.api.rendering.InterstitialAdUnit
+import org.prebid.mobile.xandr.api.rendering.listeners.BannerViewListener
+import org.prebid.mobile.xandr.api.rendering.listeners.InterstitialAdUnitListener
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentInterstitialHtmlWithBannersBinding
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBannersWithInterstitialFragment

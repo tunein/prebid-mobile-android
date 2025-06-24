@@ -2,7 +2,7 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.admob
 
 import android.util.Log
 import org.prebid.mobile.admob.PrebidBannerAdapter
-import org.prebid.mobile.rendering.bidding.display.BidResponseCache
+import org.prebid.mobile.xandr.rendering.bidding.display.BidResponseCache
 import kotlin.random.Random
 
 class AdMobBannerRandomFragment : AdMobBannerFragment() {

@@ -16,7 +16,7 @@
 
 package org.prebid.mobile.renderingtestapp.utils
 
-import org.prebid.mobile.api.rendering.pluginrenderer.PluginEventListener
+import org.prebid.mobile.xandr.api.rendering.pluginrenderer.PluginEventListener
 
 interface SampleCustomRendererEventListener : PluginEventListener {
     override fun getPluginRendererName(): String = SampleCustomRenderer.SAMPLE_PLUGIN_RENDERER_NAME

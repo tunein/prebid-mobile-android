@@ -19,17 +19,16 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.gam.rendering
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import org.prebid.mobile.AdSize
-import org.prebid.mobile.api.exceptions.AdException
-import org.prebid.mobile.api.rendering.BannerView
-import org.prebid.mobile.api.rendering.listeners.BannerViewListener
+import org.prebid.mobile.xandr.AdSize
+import org.prebid.mobile.xandr.api.exceptions.AdException
+import org.prebid.mobile.xandr.api.rendering.BannerView
+import org.prebid.mobile.xandr.api.rendering.listeners.BannerViewListener
 import org.prebid.mobile.eventhandlers.GamBannerEventHandler
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingBannerBinding
 import org.prebid.mobile.renderingtestapp.plugplay.config.AdConfiguratorDialogFragment
 import org.prebid.mobile.renderingtestapp.utils.BaseEvents
-import org.prebid.mobile.renderingtestapp.utils.CommandLineArgumentParser
 
 open class GamBannerFragment : AdFragment(),
     BannerViewListener {
@@ -53,7 +52,9 @@ open class GamBannerFragment : AdFragment(),
     }
 
     override fun initAd(): Any? {
-        val eventHandler = GamBannerEventHandler(requireContext(), adUnitId, *getGamAdSizeArray(AdSize(width, height)))
+        val eventHandler = GamBannerEventHandler(requireContext(), adUnitId, *getGamAdSizeArray(
+            AdSize(width, height)
+        ))
         bannerView = initBanner(
             configId,
             eventHandler

@@ -6,12 +6,21 @@ import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.admanager.AdManagerAdView
 import org.prebid.mobile.*
-import org.prebid.mobile.addendum.AdViewUtils
-import org.prebid.mobile.addendum.AdViewUtils.PbFindSizeListener
-import org.prebid.mobile.addendum.PbFindSizeError
-import org.prebid.mobile.api.original.PrebidAdUnit
-import org.prebid.mobile.api.original.PrebidRequest
+import org.prebid.mobile.xandr.addendum.AdViewUtils
+import org.prebid.mobile.xandr.addendum.AdViewUtils.PbFindSizeListener
+import org.prebid.mobile.xandr.addendum.PbFindSizeError
+import org.prebid.mobile.xandr.api.original.PrebidAdUnit
+import org.prebid.mobile.xandr.api.original.PrebidRequest
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
+import org.prebid.mobile.xandr.BannerParameters
+import org.prebid.mobile.xandr.NativeAdUnit
+import org.prebid.mobile.xandr.NativeAsset
+import org.prebid.mobile.xandr.NativeDataAsset
+import org.prebid.mobile.xandr.NativeEventTracker
+import org.prebid.mobile.xandr.NativeImageAsset
+import org.prebid.mobile.xandr.NativeParameters
+import org.prebid.mobile.xandr.NativeTitleAsset
+import org.prebid.mobile.xandr.VideoParameters
 
 class GamOriginalApiMultiformatBannerVideoNativeStylesActivity : BaseAdActivity() {
 
@@ -79,13 +88,13 @@ class GamOriginalApiMultiformatBannerVideoNativeStylesActivity : BaseAdActivity(
 
     private fun createBannerParameters(): BannerParameters {
         val params = BannerParameters()
-        params.adSizes = mutableSetOf(org.prebid.mobile.AdSize(300, 250))
+        params.adSizes = mutableSetOf(org.prebid.mobile.xandr.AdSize(300, 250))
         return params
     }
 
     private fun createVideoParameters(): VideoParameters {
         val params = VideoParameters(listOf("video/mp4"))
-        params.adSize = org.prebid.mobile.AdSize(320, 480)
+        params.adSize = org.prebid.mobile.xandr.AdSize(320, 480)
         return params
     }
 

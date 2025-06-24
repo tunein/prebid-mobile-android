@@ -21,10 +21,10 @@ import android.util.Log;
 
 import com.google.android.gms.ads.MobileAds;
 
-import org.prebid.mobile.ExternalUserId;
-import org.prebid.mobile.PrebidMobile;
-import org.prebid.mobile.TargetingParams;
-import org.prebid.mobile.api.data.InitializationStatus;
+import org.prebid.mobile.xandr.ExternalUserId;
+import org.prebid.mobile.xandr.PrebidMobile;
+import org.prebid.mobile.xandr.TargetingParams;
+import org.prebid.mobile.xandr.api.data.InitializationStatus;
 import org.prebid.mobile.javademo.utils.Settings;
 
 import java.util.ArrayList;

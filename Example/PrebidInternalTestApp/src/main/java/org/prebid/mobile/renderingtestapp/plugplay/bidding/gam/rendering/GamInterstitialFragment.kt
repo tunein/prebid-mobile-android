@@ -16,9 +16,9 @@
 
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.gam.rendering
 
-import org.prebid.mobile.AdSize
-import org.prebid.mobile.api.data.AdUnitFormat
-import org.prebid.mobile.api.rendering.InterstitialAdUnit
+import org.prebid.mobile.xandr.AdSize
+import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.xandr.api.rendering.InterstitialAdUnit
 import org.prebid.mobile.eventhandlers.GamInterstitialEventHandler
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidInterstitialFragment
 import org.prebid.mobile.renderingtestapp.utils.CommandLineArgumentParser

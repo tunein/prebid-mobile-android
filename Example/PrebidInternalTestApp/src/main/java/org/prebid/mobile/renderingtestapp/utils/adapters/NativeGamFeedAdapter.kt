@@ -28,14 +28,14 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import com.google.android.gms.ads.AdLoader
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.nativead.NativeCustomFormatAd
-import org.prebid.mobile.NativeData
-import org.prebid.mobile.PrebidNativeAd
-import org.prebid.mobile.PrebidNativeAdEventListener
-import org.prebid.mobile.api.data.FetchDemandResult
-import org.prebid.mobile.api.mediation.MediationNativeAdUnit
-import org.prebid.mobile.api.mediation.listeners.OnFetchCompleteListener
+import org.prebid.mobile.xandr.NativeData
+import org.prebid.mobile.xandr.PrebidNativeAd
+import org.prebid.mobile.xandr.PrebidNativeAdEventListener
+import org.prebid.mobile.xandr.api.data.FetchDemandResult
+import org.prebid.mobile.xandr.api.mediation.MediationNativeAdUnit
+import org.prebid.mobile.xandr.api.mediation.listeners.OnFetchCompleteListener
 import org.prebid.mobile.eventhandlers.utils.GamUtils
-import org.prebid.mobile.rendering.utils.ntv.NativeAdProvider
+import org.prebid.mobile.xandr.rendering.utils.ntv.NativeAdProvider
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.utils.loadImage
 

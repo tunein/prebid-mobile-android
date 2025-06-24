@@ -6,10 +6,10 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.admanager.AdManagerInterstitialAd
 import com.google.android.gms.ads.admanager.AdManagerInterstitialAdLoadCallback
-import org.prebid.mobile.InterstitialAdUnit
-import org.prebid.mobile.Signals
-import org.prebid.mobile.VideoParameters
-import org.prebid.mobile.api.data.AdUnitFormat
+import org.prebid.mobile.xandr.InterstitialAdUnit
+import org.prebid.mobile.xandr.Signals
+import org.prebid.mobile.xandr.VideoParameters
+import org.prebid.mobile.xandr.api.data.AdUnitFormat
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import java.util.*
 

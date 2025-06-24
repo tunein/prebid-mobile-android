@@ -11,9 +11,9 @@ import com.google.android.gms.ads.admanager.AdManagerAdRequest;
 import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 
-import org.prebid.mobile.RewardedVideoAdUnit;
-import org.prebid.mobile.Signals;
-import org.prebid.mobile.VideoParameters;
+import org.prebid.mobile.xandr.RewardedVideoAdUnit;
+import org.prebid.mobile.xandr.Signals;
+import org.prebid.mobile.xandr.VideoParameters;
 import org.prebid.mobile.javademo.activities.BaseAdActivity;
 
 import java.util.Collections;

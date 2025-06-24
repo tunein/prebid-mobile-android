@@ -2,7 +2,7 @@ package org.prebid.mobile.admob;
 
 import com.google.android.gms.ads.AdError;
 
-import org.prebid.mobile.LogUtil;
+import org.prebid.mobile.xandr.LogUtil;
 
 class AdErrors {
 

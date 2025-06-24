@@ -1,9 +1,9 @@
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm
 
-import org.prebid.mobile.api.data.AdUnitFormat
-import org.prebid.mobile.api.rendering.InterstitialAdUnit
+import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.xandr.api.rendering.InterstitialAdUnit
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidInterstitialFragment
-import org.prebid.mobile.api.data.Position
+import org.prebid.mobile.xandr.api.data.Position
 import java.util.*
 
 class PpmInterstitialCloseButtonAreaFragment : BaseBidInterstitialFragment() {

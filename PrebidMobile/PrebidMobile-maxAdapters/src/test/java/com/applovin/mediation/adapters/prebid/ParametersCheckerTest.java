@@ -6,10 +6,10 @@ import com.applovin.mediation.adapters.PrebidMaxMediationAdapter;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.prebid.mobile.PrebidNativeAd;
-import org.prebid.mobile.configuration.AdUnitConfiguration;
-import org.prebid.mobile.rendering.bidding.data.bid.BidResponse;
-import org.prebid.mobile.rendering.bidding.display.BidResponseCache;
+import org.prebid.mobile.xandr.PrebidNativeAd;
+import org.prebid.mobile.xandr.configuration.AdUnitConfiguration;
+import org.prebid.mobile.xandr.rendering.bidding.data.bid.BidResponse;
+import org.prebid.mobile.xandr.rendering.bidding.display.BidResponseCache;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 

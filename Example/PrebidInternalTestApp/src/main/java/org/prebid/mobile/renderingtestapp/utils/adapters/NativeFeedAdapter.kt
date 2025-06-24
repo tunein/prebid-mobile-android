@@ -24,12 +24,12 @@ import android.widget.Button
 import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.prebid.mobile.LogUtil
-import org.prebid.mobile.PrebidNativeAd
-import org.prebid.mobile.PrebidNativeAdEventListener
-import org.prebid.mobile.api.data.FetchDemandResult
-import org.prebid.mobile.api.mediation.MediationNativeAdUnit
-import org.prebid.mobile.rendering.utils.ntv.NativeAdProvider
+import org.prebid.mobile.xandr.LogUtil
+import org.prebid.mobile.xandr.PrebidNativeAd
+import org.prebid.mobile.xandr.PrebidNativeAdEventListener
+import org.prebid.mobile.xandr.api.data.FetchDemandResult
+import org.prebid.mobile.xandr.api.mediation.MediationNativeAdUnit
+import org.prebid.mobile.xandr.rendering.utils.ntv.NativeAdProvider
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.utils.loadImage
 

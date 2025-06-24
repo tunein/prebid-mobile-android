@@ -7,16 +7,15 @@ import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.LoadAdError
-import org.prebid.mobile.AdSize
+import org.prebid.mobile.xandr.AdSize
 import org.prebid.mobile.admob.AdMobMediationBannerUtils
 import org.prebid.mobile.admob.PrebidBannerAdapter
-import org.prebid.mobile.api.mediation.MediationBannerAdUnit
+import org.prebid.mobile.xandr.api.mediation.MediationBannerAdUnit
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingBannerAdmobBinding
 import org.prebid.mobile.renderingtestapp.plugplay.config.AdConfiguratorDialogFragment
 import org.prebid.mobile.renderingtestapp.utils.BaseEvents
-import org.prebid.mobile.renderingtestapp.utils.CommandLineArgumentParser
 
 open class AdMobBannerFragment : AdFragment() {
 

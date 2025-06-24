@@ -24,15 +24,24 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.admanager.AdManagerAdView
 import org.prebid.mobile.*
-import org.prebid.mobile.addendum.AdViewUtils
-import org.prebid.mobile.addendum.PbFindSizeError
-import org.prebid.mobile.api.original.PrebidAdUnit
-import org.prebid.mobile.api.original.PrebidRequest
+import org.prebid.mobile.xandr.addendum.AdViewUtils
+import org.prebid.mobile.xandr.addendum.PbFindSizeError
+import org.prebid.mobile.xandr.api.original.PrebidAdUnit
+import org.prebid.mobile.xandr.api.original.PrebidRequest
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingMultiformatBinding
 import org.prebid.mobile.renderingtestapp.plugplay.config.AdConfiguratorDialogFragment
 import org.prebid.mobile.renderingtestapp.utils.BaseEvents
+import org.prebid.mobile.xandr.BannerParameters
+import org.prebid.mobile.xandr.NativeAdUnit
+import org.prebid.mobile.xandr.NativeAsset
+import org.prebid.mobile.xandr.NativeDataAsset
+import org.prebid.mobile.xandr.NativeEventTracker
+import org.prebid.mobile.xandr.NativeImageAsset
+import org.prebid.mobile.xandr.NativeParameters
+import org.prebid.mobile.xandr.NativeTitleAsset
+import org.prebid.mobile.xandr.VideoParameters
 import java.lang.ref.WeakReference
 
 open class GamOriginalMultiformatBannerVideoNativeStylesFragment : AdFragment() {

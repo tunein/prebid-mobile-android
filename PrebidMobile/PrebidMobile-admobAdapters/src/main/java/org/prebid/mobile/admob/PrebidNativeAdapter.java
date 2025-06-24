@@ -10,11 +10,11 @@ import com.google.android.gms.ads.mediation.MediationNativeAdCallback;
 import com.google.android.gms.ads.mediation.MediationNativeAdConfiguration;
 import com.google.android.gms.ads.mediation.UnifiedNativeAdMapper;
 
-import org.prebid.mobile.LogUtil;
-import org.prebid.mobile.NativeAdUnit;
-import org.prebid.mobile.ParametersMatcher;
-import org.prebid.mobile.PrebidNativeAd;
-import org.prebid.mobile.rendering.bidding.events.EventsNotifier;
+import org.prebid.mobile.xandr.LogUtil;
+import org.prebid.mobile.xandr.NativeAdUnit;
+import org.prebid.mobile.xandr.ParametersMatcher;
+import org.prebid.mobile.xandr.PrebidNativeAd;
+import org.prebid.mobile.xandr.rendering.bidding.events.EventsNotifier;
 
 import java.util.HashMap;
 import java.util.Set;

@@ -17,12 +17,12 @@ package org.prebid.mobile.prebidkotlindemo.activities.ads.gam.rendering
 
 import android.os.Bundle
 import android.util.Log
-import org.prebid.mobile.api.exceptions.AdException
-import org.prebid.mobile.api.rendering.RewardedAdUnit
-import org.prebid.mobile.api.rendering.listeners.RewardedAdUnitListener
+import org.prebid.mobile.xandr.api.exceptions.AdException
+import org.prebid.mobile.xandr.api.rendering.RewardedAdUnit
+import org.prebid.mobile.xandr.api.rendering.listeners.RewardedAdUnitListener
 import org.prebid.mobile.eventhandlers.GamRewardedEventHandler
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
-import org.prebid.mobile.rendering.interstitial.rewarded.Reward
+import org.prebid.mobile.xandr.rendering.interstitial.rewarded.Reward
 
 class GamRenderingApiVideoRewardedActivity : BaseAdActivity() {
 

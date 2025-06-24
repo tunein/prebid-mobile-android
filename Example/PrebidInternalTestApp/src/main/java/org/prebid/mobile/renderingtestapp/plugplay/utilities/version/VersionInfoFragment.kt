@@ -20,7 +20,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import com.google.android.gms.ads.MobileAds
-import org.prebid.mobile.PrebidMobile
+import org.prebid.mobile.xandr.PrebidMobile
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentsVersionInfoBinding
 import org.prebid.mobile.renderingtestapp.utils.BaseFragment

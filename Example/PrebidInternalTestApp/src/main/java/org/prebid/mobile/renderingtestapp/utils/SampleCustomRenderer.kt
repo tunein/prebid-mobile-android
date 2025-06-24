@@ -30,17 +30,17 @@ import android.webkit.WebView
 import android.widget.FrameLayout
 import android.widget.ImageButton
 import org.json.JSONObject
-import org.prebid.mobile.LogUtil
-import org.prebid.mobile.api.data.AdFormat
-import org.prebid.mobile.api.exceptions.AdException
-import org.prebid.mobile.api.rendering.PrebidMobileInterstitialControllerInterface
-import org.prebid.mobile.rendering.bidding.listeners.DisplayVideoListener
-import org.prebid.mobile.api.rendering.pluginrenderer.PluginEventListener
-import org.prebid.mobile.api.rendering.pluginrenderer.PrebidMobilePluginRenderer
-import org.prebid.mobile.configuration.AdUnitConfiguration
-import org.prebid.mobile.rendering.bidding.data.bid.BidResponse
-import org.prebid.mobile.rendering.bidding.interfaces.InterstitialControllerListener
-import org.prebid.mobile.rendering.bidding.listeners.DisplayViewListener
+import org.prebid.mobile.xandr.LogUtil
+import org.prebid.mobile.xandr.api.data.AdFormat
+import org.prebid.mobile.xandr.api.exceptions.AdException
+import org.prebid.mobile.xandr.api.rendering.PrebidMobileInterstitialControllerInterface
+import org.prebid.mobile.xandr.rendering.bidding.listeners.DisplayVideoListener
+import org.prebid.mobile.xandr.api.rendering.pluginrenderer.PluginEventListener
+import org.prebid.mobile.xandr.api.rendering.pluginrenderer.PrebidMobilePluginRenderer
+import org.prebid.mobile.xandr.configuration.AdUnitConfiguration
+import org.prebid.mobile.xandr.rendering.bidding.data.bid.BidResponse
+import org.prebid.mobile.xandr.rendering.bidding.interfaces.InterstitialControllerListener
+import org.prebid.mobile.xandr.rendering.bidding.listeners.DisplayViewListener
 
 class SampleCustomRenderer : PrebidMobilePluginRenderer {
 

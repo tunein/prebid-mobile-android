@@ -35,11 +35,19 @@ import com.google.android.gms.ads.nativead.NativeCustomFormatAd
 import com.google.android.gms.ads.nativead.NativeCustomFormatAd.OnCustomFormatAdLoadedListener
 import com.google.common.collect.Lists
 import org.prebid.mobile.*
-import org.prebid.mobile.NativeEventTracker.EVENT_TRACKING_METHOD
-import org.prebid.mobile.addendum.AdViewUtils
+import org.prebid.mobile.xandr.NativeEventTracker.EVENT_TRACKING_METHOD
+import org.prebid.mobile.xandr.addendum.AdViewUtils
 import org.prebid.mobile.prebidkotlindemo.R
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import org.prebid.mobile.prebidkotlindemo.utils.ImageUtils
+import org.prebid.mobile.xandr.NativeAdUnit
+import org.prebid.mobile.xandr.NativeDataAsset
+import org.prebid.mobile.xandr.NativeEventTracker
+import org.prebid.mobile.xandr.NativeImageAsset
+import org.prebid.mobile.xandr.NativeTitleAsset
+import org.prebid.mobile.xandr.PrebidNativeAd
+import org.prebid.mobile.xandr.PrebidNativeAdEventListener
+import org.prebid.mobile.xandr.PrebidNativeAdListener
 
 class GamOriginalApiNativeInAppActivity : BaseAdActivity() {
 

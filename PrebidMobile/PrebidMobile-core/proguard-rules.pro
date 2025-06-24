@@ -1,10 +1,10 @@
 # Save names for all Prebid classes
--keepnames class org.prebid.mobile.**
--keepnames interface org.prebid.mobile.**
--keepnames enum org.prebid.mobile.**
+-keepnames class org.prebid.mobile.xandr.**
+-keepnames interface org.prebid.mobile.xandr.**
+-keepnames enum org.prebid.mobile.xandr.**
 
 # Google Ad Manager and AdMob
--keep class org.prebid.mobile.PrebidNativeAd { *; }
+-keep class org.prebid.mobile.xandr.PrebidNativeAd { *; }
 -keep class com.google.android.gms.ads.admanager.AdManagerAdView { *; }
 -keep class com.google.android.gms.ads.admanager.AdManagerAdRequest { *; }
 -keep class com.google.android.gms.ads.admanager.AdManagerAdRequest$Builder { *; }

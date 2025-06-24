@@ -24,10 +24,9 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
-import org.prebid.mobile.RewardedVideoAdUnit
+import org.prebid.mobile.xandr.RewardedVideoAdUnit
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidRewardedFragment
-import org.prebid.mobile.renderingtestapp.widgets.EventCounterView
 
 class GamOriginalRewardedVideoFragment : BaseBidRewardedFragment() {
     companion object {

@@ -23,7 +23,7 @@ import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
 import org.prebid.mobile.admob.AdMobMediationRewardedUtils
 import org.prebid.mobile.admob.PrebidRewardedAdapter
-import org.prebid.mobile.api.mediation.MediationRewardedVideoAdUnit
+import org.prebid.mobile.xandr.api.mediation.MediationRewardedVideoAdUnit
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 
 class AdMobVideoRewardedActivity : BaseAdActivity() {

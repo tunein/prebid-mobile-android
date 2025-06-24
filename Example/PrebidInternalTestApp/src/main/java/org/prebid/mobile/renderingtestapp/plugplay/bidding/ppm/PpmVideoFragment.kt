@@ -18,13 +18,13 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm
 
 import android.os.Bundle
 import android.view.View
-import org.prebid.mobile.AdSize
-import org.prebid.mobile.LogUtil
-import org.prebid.mobile.api.data.VideoPlacementType
-import org.prebid.mobile.api.exceptions.AdException
-import org.prebid.mobile.api.rendering.BannerView
-import org.prebid.mobile.api.rendering.listeners.BannerVideoListener
-import org.prebid.mobile.api.rendering.listeners.BannerViewListener
+import org.prebid.mobile.xandr.AdSize
+import org.prebid.mobile.xandr.LogUtil
+import org.prebid.mobile.xandr.api.data.VideoPlacementType
+import org.prebid.mobile.xandr.api.exceptions.AdException
+import org.prebid.mobile.xandr.api.rendering.BannerView
+import org.prebid.mobile.xandr.api.rendering.listeners.BannerVideoListener
+import org.prebid.mobile.xandr.api.rendering.listeners.BannerViewListener
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingBannerVideoBinding
