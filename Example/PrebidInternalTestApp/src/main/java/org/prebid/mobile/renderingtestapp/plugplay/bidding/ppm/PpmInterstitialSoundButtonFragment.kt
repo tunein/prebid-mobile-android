@@ -1,7 +1,7 @@
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm
 
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
-import org.prebid.mobile.xandr.api.rendering.InterstitialAdUnit
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.api.rendering.InterstitialAdUnit
 import java.util.*
 
 class PpmInterstitialSoundButtonFragment : PpmInterstitialFragment() {

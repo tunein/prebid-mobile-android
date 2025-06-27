@@ -23,9 +23,9 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.admanager.AdManagerInterstitialAd
 import com.google.android.gms.ads.admanager.AdManagerInterstitialAdLoadCallback
-import org.prebid.mobile.xandr.AdUnit
-import org.prebid.mobile.xandr.InterstitialAdUnit
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.AdUnit
+import org.prebid.mobile.microsoft.InterstitialAdUnit
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidInterstitialFragment
 import java.util.*

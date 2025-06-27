@@ -8,13 +8,13 @@ import com.google.android.gms.ads.mediation.MediationBannerAd;
 import com.google.android.gms.ads.mediation.MediationBannerAdCallback;
 import com.google.android.gms.ads.mediation.MediationBannerAdConfiguration;
 
-import org.prebid.mobile.xandr.api.data.AdFormat;
-import org.prebid.mobile.xandr.api.exceptions.AdException;
-import org.prebid.mobile.xandr.api.rendering.DisplayView;
-import org.prebid.mobile.xandr.configuration.AdUnitConfiguration;
-import org.prebid.mobile.xandr.rendering.bidding.data.bid.BidResponse;
-import org.prebid.mobile.xandr.rendering.bidding.display.BidResponseCache;
-import org.prebid.mobile.xandr.rendering.bidding.listeners.DisplayViewListener;
+import org.prebid.mobile.microsoft.api.data.AdFormat;
+import org.prebid.mobile.microsoft.api.exceptions.AdException;
+import org.prebid.mobile.microsoft.api.rendering.DisplayView;
+import org.prebid.mobile.microsoft.configuration.AdUnitConfiguration;
+import org.prebid.mobile.microsoft.rendering.bidding.data.bid.BidResponse;
+import org.prebid.mobile.microsoft.rendering.bidding.display.BidResponseCache;
+import org.prebid.mobile.microsoft.rendering.bidding.listeners.DisplayViewListener;
 
 /**
  * Prebid banner adapter for AdMob integration.

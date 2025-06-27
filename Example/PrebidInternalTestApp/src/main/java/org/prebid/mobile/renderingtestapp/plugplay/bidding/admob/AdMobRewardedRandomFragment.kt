@@ -1,15 +1,13 @@
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.admob
 
 import android.util.Log
-import android.widget.Button
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
 import org.prebid.mobile.admob.PrebidRewardedAdapter
-import org.prebid.mobile.xandr.rendering.bidding.display.BidResponseCache
+import org.prebid.mobile.microsoft.rendering.bidding.display.BidResponseCache
 import org.prebid.mobile.renderingtestapp.R
-import org.prebid.mobile.renderingtestapp.widgets.EventCounterView
 import kotlin.random.Random
 
 class AdMobRewardedRandomFragment : AdMobRewardedFragment() {

@@ -24,9 +24,9 @@ import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.admanager.AdManagerAdView
-import org.prebid.mobile.xandr.BannerAdUnit
-import org.prebid.mobile.xandr.addendum.AdViewUtils
-import org.prebid.mobile.xandr.addendum.PbFindSizeError
+import org.prebid.mobile.microsoft.BannerAdUnit
+import org.prebid.mobile.microsoft.addendum.AdViewUtils
+import org.prebid.mobile.microsoft.addendum.PbFindSizeError
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingBannerBinding

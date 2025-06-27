@@ -28,14 +28,13 @@ import com.google.android.exoplayer2.ui.PlayerView
 import com.google.android.exoplayer2.upstream.DataSource
 import com.google.android.exoplayer2.upstream.DataSpec
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
-import org.prebid.mobile.*
 import org.prebid.mobile.prebidkotlindemo.R
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.InStreamVideoAdUnit
-import org.prebid.mobile.xandr.Signals
-import org.prebid.mobile.xandr.Util
-import org.prebid.mobile.xandr.VideoParameters
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.InStreamVideoAdUnit
+import org.prebid.mobile.microsoft.Signals
+import org.prebid.mobile.microsoft.Util
+import org.prebid.mobile.microsoft.VideoParameters
 
 class GamOriginalApiInStreamActivity : BaseAdActivity() {
 

@@ -2,8 +2,8 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.admob
 
 import android.os.Bundle
 import org.prebid.mobile.admob.AdMobMediationInterstitialUtils
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
-import org.prebid.mobile.xandr.api.mediation.MediationInterstitialAdUnit
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.api.mediation.MediationInterstitialAdUnit
 import org.prebid.mobile.renderingtestapp.R
 import java.util.*
 

@@ -7,7 +7,7 @@ import com.google.android.gms.ads.MobileAds;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.prebid.mobile.xandr.PrebidMobile;
+import org.prebid.mobile.microsoft.PrebidMobile;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 

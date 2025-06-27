@@ -21,10 +21,9 @@ import android.util.Log
 import com.applovin.sdk.AppLovinSdk
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
-import org.prebid.mobile.xandr.Host
-import org.prebid.mobile.xandr.PrebidMobile
-import org.prebid.mobile.xandr.TargetingParams
-import org.prebid.mobile.xandr.api.data.InitializationStatus
+import org.prebid.mobile.microsoft.PrebidMobile
+import org.prebid.mobile.microsoft.TargetingParams
+import org.prebid.mobile.microsoft.api.data.InitializationStatus
 import org.prebid.mobile.prebidkotlindemo.utils.Settings
 
 class CustomApplication : Application() {

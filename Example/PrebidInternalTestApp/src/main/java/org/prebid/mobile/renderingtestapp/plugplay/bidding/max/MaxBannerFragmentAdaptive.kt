@@ -6,8 +6,8 @@ import com.applovin.mediation.MaxAdFormat
 import com.applovin.mediation.adapters.prebid.utils.MaxMediationBannerUtils
 import com.applovin.mediation.ads.MaxAdView
 import com.applovin.sdk.AppLovinSdkUtils
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.api.mediation.MediationBannerAdUnit
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.api.mediation.MediationBannerAdUnit
 
 class MaxBannerFragmentAdaptive : MaxBannerFragment() {
 

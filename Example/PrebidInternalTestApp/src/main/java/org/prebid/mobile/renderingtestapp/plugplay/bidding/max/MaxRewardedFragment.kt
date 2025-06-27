@@ -9,7 +9,7 @@ import com.applovin.mediation.MaxReward
 import com.applovin.mediation.MaxRewardedAdListener
 import com.applovin.mediation.adapters.prebid.utils.MaxMediationRewardedUtils
 import com.applovin.mediation.ads.MaxRewardedAd
-import org.prebid.mobile.xandr.api.mediation.MediationRewardedVideoAdUnit
+import org.prebid.mobile.microsoft.api.mediation.MediationRewardedVideoAdUnit
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingRewardedApplovinMaxBinding

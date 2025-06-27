@@ -17,9 +17,9 @@
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm
 
 import android.annotation.SuppressLint
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.api.rendering.BannerView
-import org.prebid.mobile.xandr.rendering.utils.helpers.AppInfoManager
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.api.rendering.BannerView
+import org.prebid.mobile.microsoft.rendering.utils.helpers.AppInfoManager
 
 class PpmBannerSpecialSymbolsFragment : PpmBannerFragment() {
 

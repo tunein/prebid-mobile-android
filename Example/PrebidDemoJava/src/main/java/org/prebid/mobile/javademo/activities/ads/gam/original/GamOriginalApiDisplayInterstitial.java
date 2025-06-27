@@ -11,8 +11,8 @@ import com.google.android.gms.ads.admanager.AdManagerAdRequest;
 import com.google.android.gms.ads.admanager.AdManagerInterstitialAd;
 import com.google.android.gms.ads.admanager.AdManagerInterstitialAdLoadCallback;
 
-import org.prebid.mobile.xandr.AdUnit;
-import org.prebid.mobile.xandr.InterstitialAdUnit;
+import org.prebid.mobile.microsoft.AdUnit;
+import org.prebid.mobile.microsoft.InterstitialAdUnit;
 import org.prebid.mobile.javademo.activities.BaseAdActivity;
 
 public class GamOriginalApiDisplayInterstitial extends BaseAdActivity {

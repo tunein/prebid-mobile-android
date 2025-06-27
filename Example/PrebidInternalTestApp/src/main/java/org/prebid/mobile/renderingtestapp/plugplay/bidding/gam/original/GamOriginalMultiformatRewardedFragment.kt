@@ -22,12 +22,12 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.Signals
-import org.prebid.mobile.xandr.VideoParameters
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
-import org.prebid.mobile.xandr.api.original.PrebidAdUnit
-import org.prebid.mobile.xandr.api.original.PrebidRequest
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.Signals
+import org.prebid.mobile.microsoft.VideoParameters
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.api.original.PrebidAdUnit
+import org.prebid.mobile.microsoft.api.original.PrebidRequest
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidInterstitialFragment
 

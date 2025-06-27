@@ -27,21 +27,21 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 
 import org.jetbrains.annotations.NotNull;
-import org.prebid.mobile.xandr.BannerParameters;
-import org.prebid.mobile.xandr.NativeAdUnit;
-import org.prebid.mobile.xandr.NativeAsset;
-import org.prebid.mobile.xandr.NativeDataAsset;
-import org.prebid.mobile.xandr.NativeEventTracker;
-import org.prebid.mobile.xandr.NativeImageAsset;
-import org.prebid.mobile.xandr.NativeParameters;
-import org.prebid.mobile.xandr.NativeTitleAsset;
-import org.prebid.mobile.xandr.PrebidNativeAd;
-import org.prebid.mobile.xandr.PrebidNativeAdListener;
-import org.prebid.mobile.xandr.VideoParameters;
-import org.prebid.mobile.xandr.addendum.AdViewUtils;
-import org.prebid.mobile.xandr.addendum.PbFindSizeError;
-import org.prebid.mobile.xandr.api.original.PrebidAdUnit;
-import org.prebid.mobile.xandr.api.original.PrebidRequest;
+import org.prebid.mobile.microsoft.BannerParameters;
+import org.prebid.mobile.microsoft.NativeAdUnit;
+import org.prebid.mobile.microsoft.NativeAsset;
+import org.prebid.mobile.microsoft.NativeDataAsset;
+import org.prebid.mobile.microsoft.NativeEventTracker;
+import org.prebid.mobile.microsoft.NativeImageAsset;
+import org.prebid.mobile.microsoft.NativeParameters;
+import org.prebid.mobile.microsoft.NativeTitleAsset;
+import org.prebid.mobile.microsoft.PrebidNativeAd;
+import org.prebid.mobile.microsoft.PrebidNativeAdListener;
+import org.prebid.mobile.microsoft.VideoParameters;
+import org.prebid.mobile.microsoft.addendum.AdViewUtils;
+import org.prebid.mobile.microsoft.addendum.PbFindSizeError;
+import org.prebid.mobile.microsoft.api.original.PrebidAdUnit;
+import org.prebid.mobile.microsoft.api.original.PrebidRequest;
 import org.prebid.mobile.javademo.R;
 import org.prebid.mobile.javademo.activities.BaseAdActivity;
 import org.prebid.mobile.javademo.utils.ImageUtils;
@@ -169,13 +169,13 @@ public class GamOriginalApiMultiformatBannerVideoNativeInApp extends BaseAdActiv
 
     private BannerParameters createBannerParameters() {
         BannerParameters parameters = new BannerParameters();
-        parameters.setAdSizes(Sets.newHashSet(new org.prebid.mobile.xandr.AdSize(300, 250)));
+        parameters.setAdSizes(Sets.newHashSet(new org.prebid.mobile.microsoft.AdSize(300, 250)));
         return parameters;
     }
 
     private VideoParameters createVideoParameters() {
         VideoParameters parameters = new VideoParameters(Lists.newArrayList("video/mp4"));
-        parameters.setAdSize(new org.prebid.mobile.xandr.AdSize(320, 480));
+        parameters.setAdSize(new org.prebid.mobile.microsoft.AdSize(320, 480));
         return parameters;
     }
 

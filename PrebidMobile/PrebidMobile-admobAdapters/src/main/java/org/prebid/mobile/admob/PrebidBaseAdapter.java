@@ -12,10 +12,10 @@ import com.google.android.gms.ads.mediation.MediationAdConfiguration;
 import com.google.android.gms.ads.mediation.MediationConfiguration;
 import com.google.android.gms.ads.mediation.VersionInfo;
 
-import org.prebid.mobile.xandr.LogUtil;
-import org.prebid.mobile.xandr.ParametersMatcher;
-import org.prebid.mobile.xandr.PrebidMobile;
-import org.prebid.mobile.xandr.rendering.bidding.display.BidResponseCache;
+import org.prebid.mobile.microsoft.LogUtil;
+import org.prebid.mobile.microsoft.ParametersMatcher;
+import org.prebid.mobile.microsoft.PrebidMobile;
+import org.prebid.mobile.microsoft.rendering.bidding.display.BidResponseCache;
 
 import java.util.HashMap;
 import java.util.List;

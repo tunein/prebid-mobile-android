@@ -2,7 +2,7 @@ package com.applovin.mediation.adapters;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.prebid.mobile.xandr.Util;
+import org.prebid.mobile.microsoft.Util;
 
 import static org.junit.Assert.assertEquals;
 

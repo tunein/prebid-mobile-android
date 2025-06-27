@@ -23,9 +23,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.FrameLayout
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.api.data.VideoPlacementType
-import org.prebid.mobile.xandr.api.rendering.BannerView
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.api.data.VideoPlacementType
+import org.prebid.mobile.microsoft.api.rendering.BannerView
 
 private const val TAG = "FeedAdapter"
 

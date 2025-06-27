@@ -4,13 +4,12 @@ import android.os.Bundle
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.admanager.AdManagerAdView
-import org.prebid.mobile.*
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
-import org.prebid.mobile.xandr.NativeAdUnit
-import org.prebid.mobile.xandr.NativeDataAsset
-import org.prebid.mobile.xandr.NativeEventTracker
-import org.prebid.mobile.xandr.NativeImageAsset
-import org.prebid.mobile.xandr.NativeTitleAsset
+import org.prebid.mobile.microsoft.NativeAdUnit
+import org.prebid.mobile.microsoft.NativeDataAsset
+import org.prebid.mobile.microsoft.NativeEventTracker
+import org.prebid.mobile.microsoft.NativeImageAsset
+import org.prebid.mobile.microsoft.NativeTitleAsset
 
 class GamOriginalApiNativeStylesActivity : BaseAdActivity() {
 

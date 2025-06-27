@@ -34,10 +34,10 @@ import junit.framework.Assert;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.prebid.mobile.xandr.CacheManager;
-import org.prebid.mobile.xandr.NativeAdUnit;
-import org.prebid.mobile.xandr.PrebidNativeAd;
-import org.prebid.mobile.xandr.rendering.utils.ntv.NativeAdProvider;
+import org.prebid.mobile.microsoft.CacheManager;
+import org.prebid.mobile.microsoft.NativeAdUnit;
+import org.prebid.mobile.microsoft.PrebidNativeAd;
+import org.prebid.mobile.microsoft.rendering.utils.ntv.NativeAdProvider;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 

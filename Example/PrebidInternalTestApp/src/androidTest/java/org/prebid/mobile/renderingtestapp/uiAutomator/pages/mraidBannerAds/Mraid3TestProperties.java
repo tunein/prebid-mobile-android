@@ -29,10 +29,10 @@ import androidx.test.uiautomator.Until;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.prebid.mobile.xandr.PrebidMobile;
-import org.prebid.mobile.xandr.rendering.sdk.ManagersResolver;
-import org.prebid.mobile.xandr.rendering.utils.helpers.AdvertisingIdManager;
-import org.prebid.mobile.xandr.rendering.utils.helpers.AppInfoManager;
+import org.prebid.mobile.microsoft.PrebidMobile;
+import org.prebid.mobile.microsoft.rendering.sdk.ManagersResolver;
+import org.prebid.mobile.microsoft.rendering.utils.helpers.AdvertisingIdManager;
+import org.prebid.mobile.microsoft.rendering.utils.helpers.AppInfoManager;
 
 public class Mraid3TestProperties extends MraidBasicPage {
 

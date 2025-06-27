@@ -18,9 +18,8 @@ package org.prebid.mobile.renderingtestapp.plugplay.utilities.version
 
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
 import com.google.android.gms.ads.MobileAds
-import org.prebid.mobile.xandr.PrebidMobile
+import org.prebid.mobile.microsoft.PrebidMobile
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentsVersionInfoBinding
 import org.prebid.mobile.renderingtestapp.utils.BaseFragment

@@ -23,13 +23,13 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import org.prebid.mobile.prebidkotlindemo.utils.ImageUtils
-import org.prebid.mobile.xandr.NativeAdUnit
-import org.prebid.mobile.xandr.rendering.utils.ntv.NativeAdProvider
-import org.prebid.mobile.xandr.NativeDataAsset
-import org.prebid.mobile.xandr.NativeEventTracker
-import org.prebid.mobile.xandr.NativeImageAsset
-import org.prebid.mobile.xandr.NativeTitleAsset
-import org.prebid.mobile.xandr.PrebidNativeAd
+import org.prebid.mobile.microsoft.NativeAdUnit
+import org.prebid.mobile.microsoft.rendering.utils.ntv.NativeAdProvider
+import org.prebid.mobile.microsoft.NativeDataAsset
+import org.prebid.mobile.microsoft.NativeEventTracker
+import org.prebid.mobile.microsoft.NativeImageAsset
+import org.prebid.mobile.microsoft.NativeTitleAsset
+import org.prebid.mobile.microsoft.PrebidNativeAd
 
 class InAppNativeActivity : BaseAdActivity() {
 

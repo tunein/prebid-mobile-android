@@ -11,7 +11,7 @@ import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
 import org.prebid.mobile.admob.AdMobMediationRewardedUtils
 import org.prebid.mobile.admob.PrebidRewardedAdapter
-import org.prebid.mobile.xandr.api.mediation.MediationRewardedVideoAdUnit
+import org.prebid.mobile.microsoft.api.mediation.MediationRewardedVideoAdUnit
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentAdmobRewardedBinding

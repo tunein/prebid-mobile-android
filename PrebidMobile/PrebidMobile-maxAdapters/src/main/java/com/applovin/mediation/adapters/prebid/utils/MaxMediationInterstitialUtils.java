@@ -3,8 +3,8 @@ package com.applovin.mediation.adapters.prebid.utils;
 import androidx.annotation.Nullable;
 import com.applovin.mediation.adapters.PrebidMaxMediationAdapter;
 import com.applovin.mediation.ads.MaxInterstitialAd;
-import org.prebid.mobile.xandr.rendering.bidding.data.bid.BidResponse;
-import org.prebid.mobile.xandr.rendering.bidding.display.PrebidMediationDelegate;
+import org.prebid.mobile.microsoft.rendering.bidding.data.bid.BidResponse;
+import org.prebid.mobile.microsoft.rendering.bidding.display.PrebidMediationDelegate;
 
 import java.util.HashMap;
 

@@ -20,11 +20,11 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
-import org.prebid.mobile.xandr.PrebidNativeAd
-import org.prebid.mobile.xandr.PrebidNativeAdEventListener
-import org.prebid.mobile.xandr.api.data.FetchDemandResult
-import org.prebid.mobile.xandr.api.mediation.MediationNativeAdUnit
-import org.prebid.mobile.xandr.rendering.utils.ntv.NativeAdProvider
+import org.prebid.mobile.microsoft.PrebidNativeAd
+import org.prebid.mobile.microsoft.PrebidNativeAdEventListener
+import org.prebid.mobile.microsoft.api.data.FetchDemandResult
+import org.prebid.mobile.microsoft.api.mediation.MediationNativeAdUnit
+import org.prebid.mobile.microsoft.rendering.utils.ntv.NativeAdProvider
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentNativeBinding

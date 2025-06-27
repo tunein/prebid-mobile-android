@@ -29,11 +29,11 @@ import com.google.android.gms.ads.admanager.AdManagerAdRequest;
 import com.google.android.gms.ads.admanager.AdManagerAdView;
 import com.google.android.gms.ads.admanager.AppEventListener;
 
-import org.prebid.mobile.xandr.AdSize;
-import org.prebid.mobile.xandr.LogUtil;
+import org.prebid.mobile.microsoft.AdSize;
+import org.prebid.mobile.microsoft.LogUtil;
 import org.prebid.mobile.eventhandlers.global.Constants;
 import org.prebid.mobile.eventhandlers.utils.GamUtils;
-import org.prebid.mobile.xandr.rendering.bidding.data.bid.Bid;
+import org.prebid.mobile.microsoft.rendering.bidding.data.bid.Bid;
 
 import java.util.HashMap;
 import java.util.Map;

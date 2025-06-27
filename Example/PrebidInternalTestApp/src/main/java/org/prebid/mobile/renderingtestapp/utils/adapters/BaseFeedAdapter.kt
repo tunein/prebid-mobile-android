@@ -23,7 +23,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.FrameLayout
 import android.widget.TextView
-import org.prebid.mobile.xandr.rendering.views.webview.mraid.Views
+import org.prebid.mobile.microsoft.rendering.views.webview.mraid.Views
 import org.prebid.mobile.renderingtestapp.R
 
 private const val TAG = "FeedAdapter"

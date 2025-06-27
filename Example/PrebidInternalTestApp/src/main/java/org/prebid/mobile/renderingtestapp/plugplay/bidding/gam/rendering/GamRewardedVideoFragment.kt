@@ -16,7 +16,7 @@
 
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.gam.rendering
 
-import org.prebid.mobile.xandr.api.rendering.RewardedAdUnit
+import org.prebid.mobile.microsoft.api.rendering.RewardedAdUnit
 import org.prebid.mobile.eventhandlers.GamRewardedEventHandler
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidRewardedFragment
 

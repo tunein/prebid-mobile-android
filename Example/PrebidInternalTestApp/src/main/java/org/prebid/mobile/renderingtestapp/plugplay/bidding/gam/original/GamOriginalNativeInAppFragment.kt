@@ -18,21 +18,20 @@ import com.google.common.collect.Lists
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.prebid.mobile.*
-import org.prebid.mobile.xandr.addendum.AdViewUtils
+import org.prebid.mobile.microsoft.addendum.AdViewUtils
 import org.prebid.mobile.eventhandlers.utils.GamUtils
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm.PpmNativeFragment
 import org.prebid.mobile.renderingtestapp.utils.loadImage
-import org.prebid.mobile.xandr.NativeAdUnit
-import org.prebid.mobile.xandr.NativeDataAsset
-import org.prebid.mobile.xandr.NativeEventTracker
-import org.prebid.mobile.xandr.NativeImageAsset
-import org.prebid.mobile.xandr.NativeTitleAsset
-import org.prebid.mobile.xandr.PrebidNativeAd
-import org.prebid.mobile.xandr.PrebidNativeAdEventListener
-import org.prebid.mobile.xandr.PrebidNativeAdListener
-import org.prebid.mobile.xandr.ResultCode
+import org.prebid.mobile.microsoft.NativeAdUnit
+import org.prebid.mobile.microsoft.NativeDataAsset
+import org.prebid.mobile.microsoft.NativeEventTracker
+import org.prebid.mobile.microsoft.NativeImageAsset
+import org.prebid.mobile.microsoft.NativeTitleAsset
+import org.prebid.mobile.microsoft.PrebidNativeAd
+import org.prebid.mobile.microsoft.PrebidNativeAdEventListener
+import org.prebid.mobile.microsoft.PrebidNativeAdListener
+import org.prebid.mobile.microsoft.ResultCode
 import java.lang.ref.WeakReference
 
 class GamOriginalNativeInAppFragment : PpmNativeFragment() {

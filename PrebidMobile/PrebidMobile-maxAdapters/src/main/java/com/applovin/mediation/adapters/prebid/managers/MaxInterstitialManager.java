@@ -8,9 +8,9 @@ import com.applovin.mediation.adapter.listeners.MaxInterstitialAdapterListener;
 import com.applovin.mediation.adapter.parameters.MaxAdapterResponseParameters;
 import com.applovin.mediation.adapters.prebid.ListenersCreator;
 import com.applovin.mediation.adapters.prebid.ParametersChecker;
-import org.prebid.mobile.xandr.api.exceptions.AdException;
-import org.prebid.mobile.xandr.rendering.bidding.display.InterstitialController;
-import org.prebid.mobile.xandr.rendering.bidding.interfaces.InterstitialControllerListener;
+import org.prebid.mobile.microsoft.api.exceptions.AdException;
+import org.prebid.mobile.microsoft.rendering.bidding.display.InterstitialController;
+import org.prebid.mobile.microsoft.rendering.bidding.interfaces.InterstitialControllerListener;
 
 public class MaxInterstitialManager {
 

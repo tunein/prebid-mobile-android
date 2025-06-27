@@ -8,10 +8,10 @@ import com.applovin.mediation.adapter.MaxAdapterError;
 import com.applovin.mediation.adapter.listeners.MaxRewardedAdapterListener;
 import com.applovin.mediation.adapter.parameters.MaxAdapterResponseParameters;
 import com.applovin.mediation.adapters.prebid.ParametersChecker;
-import org.prebid.mobile.xandr.api.exceptions.AdException;
-import org.prebid.mobile.xandr.rendering.bidding.display.InterstitialController;
-import org.prebid.mobile.xandr.rendering.bidding.interfaces.InterstitialControllerListener;
-import org.prebid.mobile.xandr.rendering.interstitial.rewarded.Reward;
+import org.prebid.mobile.microsoft.api.exceptions.AdException;
+import org.prebid.mobile.microsoft.rendering.bidding.display.InterstitialController;
+import org.prebid.mobile.microsoft.rendering.bidding.interfaces.InterstitialControllerListener;
+import org.prebid.mobile.microsoft.rendering.interstitial.rewarded.Reward;
 
 public class MaxRewardedManager {
 

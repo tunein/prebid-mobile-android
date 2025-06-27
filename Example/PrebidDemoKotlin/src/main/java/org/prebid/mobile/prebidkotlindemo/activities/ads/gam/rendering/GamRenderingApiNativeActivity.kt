@@ -33,19 +33,18 @@ import com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListener
 import com.google.android.gms.ads.nativead.NativeAd
 import com.google.android.gms.ads.nativead.NativeCustomFormatAd
 import com.google.common.collect.Lists
-import org.prebid.mobile.*
-import org.prebid.mobile.xandr.addendum.AdViewUtils
+import org.prebid.mobile.microsoft.addendum.AdViewUtils
 import org.prebid.mobile.prebidkotlindemo.R
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import org.prebid.mobile.prebidkotlindemo.utils.ImageUtils
-import org.prebid.mobile.xandr.NativeAdUnit
-import org.prebid.mobile.xandr.NativeDataAsset
-import org.prebid.mobile.xandr.NativeEventTracker
-import org.prebid.mobile.xandr.NativeImageAsset
-import org.prebid.mobile.xandr.NativeTitleAsset
-import org.prebid.mobile.xandr.PrebidNativeAd
-import org.prebid.mobile.xandr.PrebidNativeAdEventListener
-import org.prebid.mobile.xandr.PrebidNativeAdListener
+import org.prebid.mobile.microsoft.NativeAdUnit
+import org.prebid.mobile.microsoft.NativeDataAsset
+import org.prebid.mobile.microsoft.NativeEventTracker
+import org.prebid.mobile.microsoft.NativeImageAsset
+import org.prebid.mobile.microsoft.NativeTitleAsset
+import org.prebid.mobile.microsoft.PrebidNativeAd
+import org.prebid.mobile.microsoft.PrebidNativeAdEventListener
+import org.prebid.mobile.microsoft.PrebidNativeAdListener
 
 class GamRenderingApiNativeActivity : BaseAdActivity() {
 

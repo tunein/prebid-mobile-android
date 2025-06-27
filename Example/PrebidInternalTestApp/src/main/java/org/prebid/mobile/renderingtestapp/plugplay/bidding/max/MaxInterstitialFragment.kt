@@ -8,8 +8,8 @@ import com.applovin.mediation.MaxAdListener
 import com.applovin.mediation.MaxError
 import com.applovin.mediation.adapters.prebid.utils.MaxMediationInterstitialUtils
 import com.applovin.mediation.ads.MaxInterstitialAd
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
-import org.prebid.mobile.xandr.api.mediation.MediationInterstitialAdUnit
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.api.mediation.MediationInterstitialAdUnit
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingInterstitialApplovinMaxBinding

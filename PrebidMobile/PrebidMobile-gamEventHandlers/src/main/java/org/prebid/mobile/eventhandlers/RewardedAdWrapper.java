@@ -30,9 +30,9 @@ import com.google.android.gms.ads.admanager.AdManagerAdRequest;
 import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
-import org.prebid.mobile.xandr.LogUtil;
+import org.prebid.mobile.microsoft.LogUtil;
 import org.prebid.mobile.eventhandlers.utils.GamUtils;
-import org.prebid.mobile.xandr.rendering.bidding.data.bid.Bid;
+import org.prebid.mobile.microsoft.rendering.bidding.data.bid.Bid;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;

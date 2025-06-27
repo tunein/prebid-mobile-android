@@ -1,9 +1,9 @@
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.gam.original
 
-import org.prebid.mobile.xandr.AdUnit
-import org.prebid.mobile.xandr.InterstitialAdUnit
-import org.prebid.mobile.xandr.VideoParameters
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.AdUnit
+import org.prebid.mobile.microsoft.InterstitialAdUnit
+import org.prebid.mobile.microsoft.VideoParameters
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
 import org.prebid.mobile.renderingtestapp.R
 import java.util.*
 import kotlin.random.Random

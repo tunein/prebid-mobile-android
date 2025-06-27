@@ -12,14 +12,13 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.nativead.NativeAd
 import com.google.android.gms.ads.nativead.NativeAdOptions
 import org.prebid.mobile.admob.PrebidNativeAdapter
-import org.prebid.mobile.xandr.api.mediation.MediationNativeAdUnit
+import org.prebid.mobile.microsoft.api.mediation.MediationNativeAdUnit
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentAdmobNativeBinding
 import org.prebid.mobile.renderingtestapp.databinding.ViewNativeAdBinding
 import org.prebid.mobile.renderingtestapp.plugplay.config.AdConfiguratorDialogFragment
 import org.prebid.mobile.renderingtestapp.utils.BaseEvents
-import org.prebid.mobile.renderingtestapp.utils.CommandLineArgumentParser
 
 class AdMobNativeFragment : AdFragment() {
 

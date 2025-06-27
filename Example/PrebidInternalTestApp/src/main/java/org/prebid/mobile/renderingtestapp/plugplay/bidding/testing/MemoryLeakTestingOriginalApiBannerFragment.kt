@@ -4,9 +4,9 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
-import org.prebid.mobile.xandr.BannerAdUnit
-import org.prebid.mobile.xandr.OnCompleteListener
-import org.prebid.mobile.xandr.ResultCode
+import org.prebid.mobile.microsoft.BannerAdUnit
+import org.prebid.mobile.microsoft.OnCompleteListener
+import org.prebid.mobile.microsoft.ResultCode
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingBannerBinding

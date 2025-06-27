@@ -28,7 +28,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import androidx.fragment.app.DialogFragment
-import org.prebid.mobile.xandr.PrebidMobile
+import org.prebid.mobile.microsoft.PrebidMobile
 import org.prebid.mobile.renderingtestapp.R
 
 private const val ARG_CONFIGURATOR_MODE = "ARG_CONFIGURATOR_MODE"

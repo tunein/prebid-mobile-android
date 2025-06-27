@@ -35,7 +35,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.prebid.mobile.xandr.AdSize;
+import org.prebid.mobile.microsoft.AdSize;
 import org.prebid.mobile.eventhandlers.global.Constants;
 import org.prebid.mobile.test.utils.WhiteBox;
 import org.robolectric.Robolectric;

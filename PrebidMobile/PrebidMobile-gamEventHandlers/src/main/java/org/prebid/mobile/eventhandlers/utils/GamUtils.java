@@ -20,8 +20,8 @@ import android.os.Bundle;
 import com.google.android.gms.ads.admanager.AdManagerAdRequest;
 import com.google.android.gms.ads.nativead.NativeAd;
 import com.google.android.gms.ads.nativead.NativeCustomFormatAd;
-import org.prebid.mobile.xandr.LogUtil;
-import org.prebid.mobile.xandr.NativeAdUnit;
+import org.prebid.mobile.microsoft.LogUtil;
+import org.prebid.mobile.microsoft.NativeAdUnit;
 
 import java.util.HashMap;
 import java.util.HashSet;

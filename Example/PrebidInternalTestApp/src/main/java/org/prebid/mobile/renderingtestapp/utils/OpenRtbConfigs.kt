@@ -17,8 +17,8 @@
 package org.prebid.mobile.renderingtestapp.utils
 
 import com.google.gson.Gson
-import org.prebid.mobile.xandr.TargetingParams
-import org.prebid.mobile.xandr.rendering.models.openrtb.bidRequests.Ext
+import org.prebid.mobile.microsoft.TargetingParams
+import org.prebid.mobile.microsoft.rendering.models.openrtb.bidRequests.Ext
 import java.lang.reflect.InvocationTargetException
 
 object OpenRtbConfigs {

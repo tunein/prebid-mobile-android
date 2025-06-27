@@ -24,8 +24,7 @@ import android.webkit.WebView
 import androidx.multidex.MultiDex
 import androidx.multidex.MultiDexApplication
 import com.applovin.sdk.AppLovinSdk
-import org.prebid.mobile.xandr.Host
-import org.prebid.mobile.xandr.PrebidMobile
+import org.prebid.mobile.microsoft.PrebidMobile
 import org.prebid.mobile.renderingtestapp.utils.DemoItemProvider
 
 

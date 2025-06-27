@@ -32,9 +32,9 @@ import com.google.android.gms.ads.admanager.AdManagerInterstitialAd;
 import com.google.android.gms.ads.admanager.AdManagerInterstitialAdLoadCallback;
 import com.google.android.gms.ads.admanager.AppEventListener;
 
-import org.prebid.mobile.xandr.LogUtil;
+import org.prebid.mobile.microsoft.LogUtil;
 import org.prebid.mobile.eventhandlers.utils.GamUtils;
-import org.prebid.mobile.xandr.rendering.bidding.data.bid.Bid;
+import org.prebid.mobile.microsoft.rendering.bidding.data.bid.Bid;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;

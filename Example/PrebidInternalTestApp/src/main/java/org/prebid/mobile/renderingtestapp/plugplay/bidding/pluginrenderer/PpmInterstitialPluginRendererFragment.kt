@@ -17,12 +17,11 @@
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.pluginrenderer
 
 import android.os.Bundle
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.PrebidMobile
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
-import org.prebid.mobile.xandr.api.rendering.InterstitialAdUnit
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.PrebidMobile
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.api.rendering.InterstitialAdUnit
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidInterstitialFragment
-import org.prebid.mobile.renderingtestapp.utils.CommandLineArgumentParser
 import org.prebid.mobile.renderingtestapp.utils.SampleCustomRenderer
 import java.util.*
 

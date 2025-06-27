@@ -19,12 +19,11 @@ package org.prebid.mobile.renderingtestapp.plugplay.bidding.gam.original
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Button
 import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
-import org.prebid.mobile.xandr.RewardedVideoAdUnit
+import org.prebid.mobile.microsoft.RewardedVideoAdUnit
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidRewardedFragment
 

@@ -20,13 +20,13 @@ import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.admanager.AdManagerAdView
-import org.prebid.mobile.xandr.BannerAdUnit
-import org.prebid.mobile.xandr.BannerParameters
-import org.prebid.mobile.xandr.Signals
-import org.prebid.mobile.xandr.VideoParameters
-import org.prebid.mobile.xandr.addendum.AdViewUtils
-import org.prebid.mobile.xandr.addendum.PbFindSizeError
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.BannerAdUnit
+import org.prebid.mobile.microsoft.BannerParameters
+import org.prebid.mobile.microsoft.Signals
+import org.prebid.mobile.microsoft.VideoParameters
+import org.prebid.mobile.microsoft.addendum.AdViewUtils
+import org.prebid.mobile.microsoft.addendum.PbFindSizeError
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 import java.util.*
 

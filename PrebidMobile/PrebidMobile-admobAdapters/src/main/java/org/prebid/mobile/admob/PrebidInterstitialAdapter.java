@@ -8,9 +8,9 @@ import com.google.android.gms.ads.mediation.MediationInterstitialAd;
 import com.google.android.gms.ads.mediation.MediationInterstitialAdCallback;
 import com.google.android.gms.ads.mediation.MediationInterstitialAdConfiguration;
 
-import org.prebid.mobile.xandr.api.exceptions.AdException;
-import org.prebid.mobile.xandr.rendering.bidding.display.InterstitialController;
-import org.prebid.mobile.xandr.rendering.bidding.interfaces.InterstitialControllerListener;
+import org.prebid.mobile.microsoft.api.exceptions.AdException;
+import org.prebid.mobile.microsoft.rendering.bidding.display.InterstitialController;
+import org.prebid.mobile.microsoft.rendering.bidding.interfaces.InterstitialControllerListener;
 
 /**
  * Prebid interstitial adapter for AdMob integration.

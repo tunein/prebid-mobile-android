@@ -28,20 +28,19 @@ import android.widget.FrameLayout
 import android.widget.ProgressBar
 import androidx.preference.PreferenceManager
 import androidx.test.espresso.idling.CountingIdlingResource
-import org.prebid.mobile.*
-import org.prebid.mobile.xandr.api.mediation.MediationNativeAdUnit
+import org.prebid.mobile.microsoft.api.mediation.MediationNativeAdUnit
 import org.prebid.mobile.renderingtestapp.plugplay.config.*
 import org.prebid.mobile.renderingtestapp.utils.BaseFragment
 import org.prebid.mobile.renderingtestapp.utils.ConfigurationViewSettings
 import org.prebid.mobile.renderingtestapp.utils.OpenRtbConfigs
 import org.prebid.mobile.renderingtestapp.widgets.EventCounterView
-import org.prebid.mobile.xandr.Host
-import org.prebid.mobile.xandr.NativeAdUnit
-import org.prebid.mobile.xandr.NativeDataAsset
-import org.prebid.mobile.xandr.NativeEventTracker
-import org.prebid.mobile.xandr.NativeImageAsset
-import org.prebid.mobile.xandr.NativeTitleAsset
-import org.prebid.mobile.xandr.PrebidMobile
+import org.prebid.mobile.microsoft.Host
+import org.prebid.mobile.microsoft.NativeAdUnit
+import org.prebid.mobile.microsoft.NativeDataAsset
+import org.prebid.mobile.microsoft.NativeEventTracker
+import org.prebid.mobile.microsoft.NativeImageAsset
+import org.prebid.mobile.microsoft.NativeTitleAsset
+import org.prebid.mobile.microsoft.PrebidMobile
 
 abstract class AdFragment : BaseFragment() {
 

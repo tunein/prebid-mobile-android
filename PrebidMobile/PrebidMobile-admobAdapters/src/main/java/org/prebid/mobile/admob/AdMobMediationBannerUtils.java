@@ -7,12 +7,12 @@ import androidx.annotation.Nullable;
 
 import com.google.android.gms.ads.AdView;
 
-import org.prebid.mobile.xandr.LogUtil;
-import org.prebid.mobile.xandr.rendering.bidding.data.bid.BidResponse;
-import org.prebid.mobile.xandr.rendering.bidding.display.PrebidMediationDelegate;
-import org.prebid.mobile.xandr.rendering.models.internal.VisibilityTrackerOption;
-import org.prebid.mobile.xandr.rendering.models.ntv.NativeEventTracker;
-import org.prebid.mobile.xandr.rendering.utils.helpers.VisibilityChecker;
+import org.prebid.mobile.microsoft.LogUtil;
+import org.prebid.mobile.microsoft.rendering.bidding.data.bid.BidResponse;
+import org.prebid.mobile.microsoft.rendering.bidding.display.PrebidMediationDelegate;
+import org.prebid.mobile.microsoft.rendering.models.internal.VisibilityTrackerOption;
+import org.prebid.mobile.microsoft.rendering.models.ntv.NativeEventTracker;
+import org.prebid.mobile.microsoft.rendering.utils.helpers.VisibilityChecker;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;

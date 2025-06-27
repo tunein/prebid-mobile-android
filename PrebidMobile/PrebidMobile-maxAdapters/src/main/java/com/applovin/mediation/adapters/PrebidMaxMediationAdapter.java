@@ -19,8 +19,8 @@ import com.applovin.mediation.adapters.prebid.managers.MaxNativeManager;
 import com.applovin.mediation.adapters.prebid.managers.MaxRewardedManager;
 import com.applovin.sdk.AppLovinSdk;
 
-import org.prebid.mobile.xandr.PrebidMobile;
-import org.prebid.mobile.xandr.TargetingParams;
+import org.prebid.mobile.microsoft.PrebidMobile;
+import org.prebid.mobile.microsoft.TargetingParams;
 
 /**
  * Prebid mediation adapter for AppLovin MAX integration.

@@ -32,8 +32,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import androidx.test.espresso.IdlingResource
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import org.prebid.mobile.xandr.api.data.InitializationStatus
-import org.prebid.mobile.xandr.rendering.listeners.SdkInitializationListener
+import org.prebid.mobile.microsoft.api.data.InitializationStatus
+import org.prebid.mobile.microsoft.rendering.listeners.SdkInitializationListener
 import org.prebid.mobile.renderingtestapp.plugplay.utilities.consent.ConsentUpdateManager
 import org.prebid.mobile.renderingtestapp.utils.CommandLineArgumentParser
 import org.prebid.mobile.renderingtestapp.utils.PermissionHelper

@@ -7,10 +7,10 @@ import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.LoadAdError
-import org.prebid.mobile.xandr.AdSize
+import org.prebid.mobile.microsoft.AdSize
 import org.prebid.mobile.admob.AdMobMediationBannerUtils
 import org.prebid.mobile.admob.PrebidBannerAdapter
-import org.prebid.mobile.xandr.api.mediation.MediationBannerAdUnit
+import org.prebid.mobile.microsoft.api.mediation.MediationBannerAdUnit
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingBannerAdmobBinding

@@ -24,8 +24,8 @@ import com.applovin.mediation.MaxAdViewAdListener
 import com.applovin.mediation.MaxError
 import com.applovin.mediation.adapters.prebid.utils.MaxMediationBannerUtils
 import com.applovin.mediation.ads.MaxAdView
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.api.mediation.MediationBannerAdUnit
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.api.mediation.MediationBannerAdUnit
 import org.prebid.mobile.prebidkotlindemo.R
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 

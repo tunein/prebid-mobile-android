@@ -28,7 +28,7 @@ import androidx.core.widget.addTextChangedListener
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.gms.ads.MobileAds
-import org.prebid.mobile.xandr.PrebidMobile
+import org.prebid.mobile.microsoft.PrebidMobile
 import org.prebid.mobile.prebidkotlindemo.R
 import org.prebid.mobile.prebidkotlindemo.databinding.ActivityMainBinding
 import org.prebid.mobile.prebidkotlindemo.testcases.*

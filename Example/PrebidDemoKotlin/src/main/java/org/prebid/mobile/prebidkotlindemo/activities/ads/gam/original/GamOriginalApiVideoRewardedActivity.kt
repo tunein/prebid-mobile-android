@@ -6,9 +6,9 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
-import org.prebid.mobile.xandr.RewardedVideoAdUnit
-import org.prebid.mobile.xandr.Signals
-import org.prebid.mobile.xandr.VideoParameters
+import org.prebid.mobile.microsoft.RewardedVideoAdUnit
+import org.prebid.mobile.microsoft.Signals
+import org.prebid.mobile.microsoft.VideoParameters
 import org.prebid.mobile.prebidkotlindemo.activities.BaseAdActivity
 
 class GamOriginalApiVideoRewardedActivity : BaseAdActivity() {

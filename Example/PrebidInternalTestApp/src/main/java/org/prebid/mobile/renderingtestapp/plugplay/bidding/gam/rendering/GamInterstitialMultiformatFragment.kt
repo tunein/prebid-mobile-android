@@ -16,9 +16,9 @@
 
 package org.prebid.mobile.renderingtestapp.plugplay.bidding.gam.rendering
 
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
-import org.prebid.mobile.xandr.api.rendering.InterstitialAdUnit
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.api.rendering.InterstitialAdUnit
 import org.prebid.mobile.eventhandlers.GamInterstitialEventHandler
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.base.BaseBidInterstitialFragment

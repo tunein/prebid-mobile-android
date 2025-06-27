@@ -30,13 +30,12 @@ import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.nativead.NativeAd
 import com.google.android.gms.ads.nativead.NativeAdView
 import com.google.android.gms.ads.nativead.NativeCustomFormatAd
-import org.prebid.mobile.xandr.api.data.FetchDemandResult
+import org.prebid.mobile.microsoft.api.data.FetchDemandResult
 import org.prebid.mobile.eventhandlers.utils.GamUtils
-import org.prebid.mobile.xandr.rendering.utils.ntv.NativeAdProvider
+import org.prebid.mobile.microsoft.rendering.utils.ntv.NativeAdProvider
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.plugplay.bidding.ppm.PpmNativeFragment
 import org.prebid.mobile.renderingtestapp.plugplay.config.AdConfiguratorDialogFragment
-import org.prebid.mobile.renderingtestapp.utils.CommandLineArgumentParser
 import org.prebid.mobile.renderingtestapp.utils.loadImage
 
 class GamNativeFragment(

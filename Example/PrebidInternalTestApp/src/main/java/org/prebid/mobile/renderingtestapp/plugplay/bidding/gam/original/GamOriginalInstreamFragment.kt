@@ -12,17 +12,17 @@ import com.google.android.exoplayer2.ui.PlayerView
 import com.google.android.exoplayer2.upstream.DataSource
 import com.google.android.exoplayer2.upstream.DataSpec
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
-import org.prebid.mobile.xandr.api.data.AdUnitFormat
+import org.prebid.mobile.microsoft.api.data.AdUnitFormat
 import org.prebid.mobile.renderingtestapp.AdFragment
 import org.prebid.mobile.renderingtestapp.R
 import org.prebid.mobile.renderingtestapp.databinding.FragmentBiddingBannerVideoBinding
 import org.prebid.mobile.renderingtestapp.plugplay.config.AdConfiguratorDialogFragment
-import org.prebid.mobile.xandr.AdSize
-import org.prebid.mobile.xandr.BannerAdUnit
-import org.prebid.mobile.xandr.PrebidMobile
-import org.prebid.mobile.xandr.Signals
-import org.prebid.mobile.xandr.Util
-import org.prebid.mobile.xandr.VideoParameters
+import org.prebid.mobile.microsoft.AdSize
+import org.prebid.mobile.microsoft.BannerAdUnit
+import org.prebid.mobile.microsoft.PrebidMobile
+import org.prebid.mobile.microsoft.Signals
+import org.prebid.mobile.microsoft.Util
+import org.prebid.mobile.microsoft.VideoParameters
 import java.util.*
 
 class GamOriginalInstreamFragment : AdFragment() {
