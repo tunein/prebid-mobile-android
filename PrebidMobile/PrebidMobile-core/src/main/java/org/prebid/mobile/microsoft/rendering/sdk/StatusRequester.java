@@ -9,6 +9,7 @@ import org.prebid.mobile.microsoft.rendering.networking.BaseNetworkTask;
 import org.prebid.mobile.microsoft.rendering.networking.ResponseHandler;
 import org.prebid.mobile.microsoft.rendering.networking.tracking.ServerConnection;
 
+import java.net.URI;
 import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -30,8 +31,8 @@ public class StatusRequester implements Callable<String> {
             statusUrl = customStatusEndpointUrl;
         } else {
             String url = PrebidMobile.getPrebidServerHost().getHostUrl();
-            if (url.contains("/openrtb2/auction")) {
-                statusUrl = url.replace("/openrtb2/auction", "/status");
+            if (url.contains("/openrtb2/")) {
+                statusUrl = url.substring(0, url.indexOf("/openrtb2/")) + "/status";
             } else {
                 LogUtil.info("Prebid SDK can't build the /status endpoint. Please, provide the custom /status endpoint using PrebidMobile.setCustomStatusEndpoint().");
                 return null;
